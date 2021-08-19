@@ -1,0 +1,10 @@
+터미널에서 g++로 컴파일 : g++ -std=c++17 (파일이름).(cpp) (여러개 컴파일 : g++ -c *.(cpp))
+-> 목적파일 실행 : ./(파일이름)
+
+ex)hj@hj:~/c++/workspace/src/2-4/src$ g++ -std=c++17 car.cpp car_main.cpp
+hj@hj:~/c++/workspace/src/2-4/src$ g++ -std=c++17 car.cpp car_main.cpp && ./a.out
+
+
+cmake로 컴파일 : cmake파일 작성
+-> cmake파일 만든 곳에 build폴더 만든 후 거기에서 cmake.. -> make
+-> 파일 실행 : ./(파일이름)

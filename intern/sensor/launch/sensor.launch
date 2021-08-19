@@ -1,0 +1,17 @@
+<launch>
+  <node name="lidar_node" pkg="sensor" type="sensor_node" >
+    <param name="frame_id" type="string" value="/vehicle" />
+    <param name="child_frame_id" type="string" value="/sensor" />
+    <param name="n_channel" type="double" value="15" />
+    <param name="n_point" type="double" value="3600" />
+    <param name="angle" type="double" value="50.0" />
+    <param name="mean" type="double" value="15.0" />
+    <param name="stddev" type="double" value="1.0" />
+    <param name="p_x" type="double" value="15.0" />
+    <param name="p_y" type="double" value="0.0" />
+    <param name="p_z" type="double" value="3.0" />
+    <param name="o_r" type="double" value="0.0" />
+    <param name="o_p" type="double" value="0.0" />
+    <param name="o_y" type="double" value="0.0" />
+  </node>
+</launch>

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hj/c++/workspace/src/2-4/src/practice.cpp
+practice.h
+/home/hj/c++/workspace/src/2-4/src/practice.h
+iostream
+-
+vector
+-
+
+/home/hj/c++/workspace/src/2-4/src/practice.h
+vector
+-
+

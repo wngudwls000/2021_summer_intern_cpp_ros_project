@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hj/c++/workspace/src/2-astar/src/astar.cpp
+astar.h
+/home/hj/c++/workspace/src/2-astar/src/astar.h
+vector
+-
+
+/home/hj/c++/workspace/src/2-astar/src/astar.h
+algorithm
+-
+fstream
+-
+iostream
+-
+sstream
+-
+string
+-
+vector
+-
+
+/home/hj/c++/workspace/src/2-astar/src/astar_main.cpp
+astar.h
+/home/hj/c++/workspace/src/2-astar/src/astar.h
+

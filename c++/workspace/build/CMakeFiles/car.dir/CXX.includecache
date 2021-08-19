@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hj/c++/workspace/src/2-4/src/car.cpp
+iostream
+-
+car.h
+/home/hj/c++/workspace/src/2-4/src/car.h
+
+/home/hj/c++/workspace/src/2-4/src/car.h
+string
+-
+
+/home/hj/c++/workspace/src/2-4/src/car_main.cpp
+iostream
+-
+string
+-
+vector
+-
+car.h
+/home/hj/c++/workspace/src/2-4/src/car.h
+
